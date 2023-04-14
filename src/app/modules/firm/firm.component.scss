@@ -1,0 +1,98 @@
+@import '../../../variable.scss';
+
+.firm{
+    padding: 0 9% 9%; //top-right+left-bottom
+    position: relative;
+}
+.firm .heading{
+    text-align: center;
+    font-size: 60px;
+    color: #333;
+    padding: 10px;
+    margin: 0px 0;
+    padding: 7% 0 7% 0; //top-right-bottom-left
+}
+.firm .heading span{
+    margin-top: -100px;
+    color: $brightWood;
+}
+.firm .row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    padding-bottom: 3px;
+}
+.firm .row .video-container{
+    flex: 1 1 40px;
+    position: relative;
+}
+.firm .row .video-container video{
+    width: 100%;
+    border:15px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.firm .row .content{
+    flex:1 1 40px;
+}
+.firm .row .content h3{
+    font-size: 40px;
+    counter-reset: #333;
+}
+.firm .row .content p{
+    font-size: 20px;
+    counter-reset: #999;
+    padding: 10px 0;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.btn:hover{
+    background: $brightWood;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #333;
+    color:#fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icons-container{
+    padding: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icons-container .icons{
+    background: #fff;
+    border: 3px solid rgba(0,0,0,.1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 20px;
+}
+.icons-container .icons img{
+    height: 120px;
+    margin-left: 7%;
+}
+.icons-container .icons h3{
+    color: #333;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.icons-container .icons span{
+    color: #999;
+    margin-left: 50px;
+    font-size: 17px;
+}

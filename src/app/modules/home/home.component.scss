@@ -1,0 +1,40 @@
+@import '../../../variable.scss';
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../../../assets/palety-7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5px;
+}
+.home .content{
+    padding: 9%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.home .content h3{
+    font-size: 60px;
+    color: $brightWood;
+}
+.home .content span{
+    font-size: 45px;
+    color: orange;
+    line-height: 1.5;
+}
+.btn:hover{
+    background: $brightWood;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #333;
+    color:#fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 25px;
+}

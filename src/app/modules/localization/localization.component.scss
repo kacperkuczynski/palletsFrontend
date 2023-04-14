@@ -1,0 +1,27 @@
+@import '../../../variable.scss';
+
+.localization{
+    padding: 0 9% 9%; //top-right+left-bottom
+}
+.localization .heading{
+    text-align: center;
+    font-size: 60px;
+    color: #333;
+    padding: 10px;
+    margin: 0px 0;
+    padding: 7% 0 7% 0; //top-right-bottom-left
+}
+.localization .heading span{
+    margin-top: -100px;
+    color: $brightWood;
+}
+
+.map-wrapper{
+    border: 4px solid $brightWood;
+    
+}
+.map{
+    
+    width: 100%;
+    margin-bottom: -4px;
+}

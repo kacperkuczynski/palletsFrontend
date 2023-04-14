@@ -1,0 +1,44 @@
+@import "../../../../variable.scss";
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 22px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    font-size: 22px;
+}
+header .logo{
+    color: $darkWood;
+    font-weight: bolder;
+    font-size: 30px;
+}
+header .logo .dot{
+    color: $brightWood;
+}
+header .navbar{
+    justify-content: center;
+}
+header .navbar a{
+    padding: 0 22px;
+    color: #666;
+}
+header .navbar a:hover{
+    color: $brightWood;
+}
+header #toggler{
+    display: none;
+}
+header .fa-bars{
+    font-size: 99px;
+    color:#333;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 8px solid rgba(0,0,0,.3);
+    display: none;
+}

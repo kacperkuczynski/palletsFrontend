@@ -1,0 +1,22 @@
+@import '../../../../variable.scss';
+
+.footer{
+    justify-content: center;
+    position: absolute;
+    right: 0; left: 0;
+}
+.footer .credit{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    font-size: 16px;
+    color: #333;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+.footer .credit span{
+    color: $brightWood;
+}
+.footer .credit li{
+    list-style-type: none;
+}

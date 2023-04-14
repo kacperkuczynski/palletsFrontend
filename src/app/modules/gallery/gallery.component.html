@@ -1,0 +1,123 @@
+<!-- 
+<div class="gallery">
+
+    <h1 class="heading">nasza <span>galeria</span></h1>
+
+    <div class="image-container">
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="box">
+
+            <div class="image">
+                <img src="../../../assets/palety-2.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="" alt="">
+    </div>
+
+</div>
+
+<script>
+    document.querySelectorAll('.image-container img').forEach(image => {
+        image.onclick = () => {
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
+
+    document.querySelector('.popup-image span').onclick = () => {
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+</script> -->
+
+<!-- <gallery id="mixedExample" [itemTemplate]="itemTemplate"></gallery> -->
+<!-- [thumbTemplate]="thumbTemplate"  -->
+
+<!-- Add custom template to thumbnails
+<ng-template #thumbTemplate let-type="type">
+  <span *ngIf="type === 'youtube'" class="item-type">
+    <fa-icon [icon]="youtubeIcon" size="lg"></fa-icon>
+  </span>
+  <span *ngIf="type === 'video'" class="item-type">
+    <fa-icon [icon]="videoIcon" size="lg"></fa-icon>
+  </span>
+</ng-template> -->
+
+<!-- Add custom template to image items -->
+<!-- <ng-template #itemTemplate
+             let-index="index"
+             let-type="type"
+             let-data="data"
+             let-currIndex="currIndex"
+             let-isActive="isActive">
+  <span *ngIf="type === 'image' && isActive" [@slideAnimation] class="item-text">
+    {{data?.title}}
+  </span>
+</ng-template> -->
+
+
+<div class="basic-container">
+	<h2>Basic Example</h2>
+	<gallery id="basic-test" imageSize="cover" fluid [items]="items"></gallery>
+</div>
