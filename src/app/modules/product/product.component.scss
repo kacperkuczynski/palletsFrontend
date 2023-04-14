@@ -10,10 +10,18 @@
     color: #333;
     padding: 10px;
     margin: 0px 0;
-    padding: 7% 0 7% 0; //top-right-bottom-left
+    padding: 7% 0 0 0; //top-right-bottom-left
 }
-.products .heading span{
+.products span{
     color: $brightWood;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    padding: 10px;
+    margin: 0px 0;
+    padding: 7% 0 0 0; //top-right-bottom-left
 }
 .products .container{
     padding-top: 7%;
@@ -43,17 +51,17 @@
 .products .container .box .image img:hover{
     transform: scale(1.1);
 }
-.products .container .box .content{
-    padding: 20px;
-    text-align: center;
-}
-.products .container .box .content h3{
-    font-size: 30px;
-    color: #333;
-}
-.products .container .box .content .size{
-    font-size: 15px;
-    color: var(--brightWood);
-    font-weight: bolder;
-    padding-top: 1px;
-}
+// .products .container .box .content{
+//     padding: 20px;
+//     text-align: center;
+// }
+// .products .container .box .content h3{
+//     font-size: 30px;
+//     color: #333;
+// }
+// .products .container .box .content .size{
+//     font-size: 15px;
+//     color: var(--brightWood);
+//     font-weight: bolder;
+//     padding-top: 1px;
+// }

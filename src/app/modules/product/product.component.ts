@@ -1,10 +1,90 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Product } from './model/product';
+import { PalletteType } from './model/palletteType';
+import { ProductType } from './model/productType';
+import { Gallery, GalleryItem, ImageItem, ImageSize, ThumbnailsPosition } from 'ng-gallery';
+import { Lightbox } from 'ng-gallery/lightbox';
 
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })
-export class ProductComponent {
+export class ProductComponent implements OnInit{
 
+  items800: Product[] = [];
+  items1000: Product[] = [];
+  items!: GalleryItem[];
+
+  constructor(public gallery: Gallery, public lightbox: Lightbox) {}
+
+  ngOnInit() {
+    this.items800 = this.data.filter(item => item.height === 800);
+    this.items1000 = this.data.filter(item => item.height === 1000);
+
+      /** Basic Gallery Example */
+
+    // Creat gallery items
+    this.items = this.items800.map(item => new ImageItem({src: item.image, thumb: item.image }));
+
+    /** Lightbox Example */
+
+    // Get a lightbox gallery ref
+    const lightboxRef = this.gallery.ref('lightbox');
+
+    // Add custom gallery config to the lightbox (optional)
+    lightboxRef.setConfig({
+      imageSize: ImageSize.Cover,
+      thumbPosition: ThumbnailsPosition.Top
+    });
+
+    // Load items into the lightbox gallery ref
+    lightboxRef.load(this.items);
+  }
+
+  data:Product[] = [
+    {
+      height: 800,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/1.JPG"
+    },
+    {
+      height: 800,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/1.JPG"
+    },
+    {
+      height: 800,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/1.JPG"
+    },
+    {
+      height: 1000,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/4.jpg"
+    },
+    {
+      height: 1000,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/4.jpg"
+    },
+    {
+      height: 1000,
+      width: 1000,
+      palletteType: PalletteType.DREWNIANA,
+      productType: ProductType.PALETA,
+      image: "../assets/PaletyObrazki/produkty/4.jpg"
+    }
+  ];
 }
+
