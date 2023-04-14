@@ -15,14 +15,14 @@
 .products .heading span{
     color: $brightWood;
 }
-.products .box-container{
+.products .container{
     padding-top: 7%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     
 }
-.products .box-container .box{
+.products .container .box{
     flex: 1 1 150px;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
@@ -30,27 +30,28 @@
     position: relative;
     background: #fff;
 }
-.products .box-container .box .image{
+.products .container .box .image{
     position: relative;
     text-align: center;
-    padding-top: 2rem;
-    overflow: hidden;
+    padding: 1rem;
 }
-.products .box-container .box .image img{
+.products .container .box .image img{
+    border-radius: .5rem;
+    width: 250px;
     height: 250px;
 }
-.products .box-container .box:hover .image img{
+.products .container .box .image img:hover{
     transform: scale(1.1);
 }
-.products .box-container .box .content{
+.products .container .box .content{
     padding: 20px;
     text-align: center;
 }
-.products .box-container .box .content h3{
+.products .container .box .content h3{
     font-size: 30px;
     color: #333;
 }
-.products .box-container .box .content .size{
+.products .container .box .content .size{
     font-size: 15px;
     color: var(--brightWood);
     font-weight: bolder;

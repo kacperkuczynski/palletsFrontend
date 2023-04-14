@@ -10,7 +10,6 @@ import { Lightbox } from 'ng-gallery/lightbox';
 export class GalleryComponent implements OnInit{
   
   items!: GalleryItem[];
-
   imageData = data;
 
   constructor(public gallery: Gallery, public lightbox: Lightbox) {
@@ -21,8 +20,7 @@ export class GalleryComponent implements OnInit{
     /** Basic Gallery Example */
 
     // Creat gallery items
-    this.items = this.imageData.map(item => new ImageItem({ src: item.srcUrl, thumb: item.previewUrl }));
-
+    this.items = this.imageData.map(item => new ImageItem({src: item.srcUrl, thumb: item.previewUrl }));
 
     /** Lightbox Example */
 
@@ -39,24 +37,74 @@ export class GalleryComponent implements OnInit{
     lightboxRef.load(this.items);
   }
 
-  
-
 }
 const data = [
   {
-    srcUrl: "../assets/badge.png",
-    previewUrl: "../assets/badge.png"
+    srcUrl: "../assets/PaletyObrazki/galeria/1.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/1.JPG"
   },
   {
-    srcUrl: '../assets/epal2.png',
-    previewUrl: '../assets/epal2.png'
+    srcUrl: "../assets/PaletyObrazki/galeria/2.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/2.JPG"
   },
   {
-    srcUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg',
-    previewUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg'
+    srcUrl: "../assets/PaletyObrazki/galeria/3.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/3.JPG"
   },
   {
-    srcUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
-    previewUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg'
+    srcUrl: "../assets/PaletyObrazki/galeria/4.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/4.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/5.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/5.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/6.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/6.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/7.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/7.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/8.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/8.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/9.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/9.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/10.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/10.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/11.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/11.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/12.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/12.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/13.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/13.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/14.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/14.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/15.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/15.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/16.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/16.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/17.JPG",
+    previewUrl: "../assets/PaletyObrazki/galeria/17.JPG"
   }
 ];
