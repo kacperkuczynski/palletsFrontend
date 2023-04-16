@@ -12,22 +12,16 @@ import { Lightbox } from 'ng-gallery/lightbox';
 })
 export class ProductComponent implements OnInit{
 
-  items800: Product[] = [];
-  items1000: Product[] = [];
+  items800!: Product[];
+  items1000!: Product[];
   items!: GalleryItem[];
+  
 
   constructor(public gallery: Gallery, public lightbox: Lightbox) {}
 
   ngOnInit() {
-    this.items800 = this.data.filter(item => item.height === 800);
     this.items1000 = this.data.filter(item => item.height === 1000);
-
-      /** Basic Gallery Example */
-
-    // Creat gallery items
-    this.items = this.items800.map(item => new ImageItem({src: item.image, thumb: item.image }));
-
-    /** Lightbox Example */
+    this.items800 = this.data.filter(item => item.height === 800);
 
     // Get a lightbox gallery ref
     const lightboxRef = this.gallery.ref('lightbox');
@@ -39,7 +33,7 @@ export class ProductComponent implements OnInit{
     });
 
     // Load items into the lightbox gallery ref
-    lightboxRef.load(this.items);
+    lightboxRef.load(this.items); 
   }
 
   data:Product[] = [
@@ -69,21 +63,21 @@ export class ProductComponent implements OnInit{
       width: 1000,
       palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
-      image: "../assets/PaletyObrazki/produkty/4.jpg"
+      image: "../assets/PaletyObrazki/produkty/5.JPG"
     },
     {
       height: 1000,
       width: 1000,
       palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
-      image: "../assets/PaletyObrazki/produkty/4.jpg"
+      image: "../assets/PaletyObrazki/produkty/5.JPG"
     },
     {
       height: 1000,
       width: 1000,
       palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
-      image: "../assets/PaletyObrazki/produkty/4.jpg"
+      image: "../assets/PaletyObrazki/produkty/5.JPG"
     }
   ];
 }
