@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from './model/product';
 import { PalletteType } from './model/palletteType';
 import { ProductType } from './model/productType';
-import { Gallery, GalleryItem, ImageItem, ImageSize, ThumbnailsPosition } from 'ng-gallery';
+import { Gallery, GalleryItem, ImageSize, ThumbnailsPosition } from 'ng-gallery';
 import { Lightbox } from 'ng-gallery/lightbox';
 
 @Component({
