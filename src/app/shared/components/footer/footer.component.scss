@@ -4,7 +4,6 @@
     justify-content: center;
     position: absolute;
     right: 0; left: 0;
-    background: lightgoldenrodyellow;
 }
 .footer .credit{
     text-align: center;
@@ -14,6 +13,8 @@
     font-size: 16px;
     color: #333;
     border-top: 2px solid rgba(0,0,0,.1);
+    background: #fff;
+
 }
 .footer .credit span{
     color: $brightWood;
