@@ -15,7 +15,6 @@ export class ProductComponent implements OnInit{
   items800!: Product[];
   items1000!: Product[];
   items!: GalleryItem[];
-  
 
   constructor(public gallery: Gallery, public lightbox: Lightbox) {}
 
@@ -23,16 +22,13 @@ export class ProductComponent implements OnInit{
     this.items1000 = this.data.filter(item => item.height === 1000);
     this.items800 = this.data.filter(item => item.height === 800);
 
-    // Get a lightbox gallery ref
     const lightboxRef = this.gallery.ref('lightbox');
 
-    // Add custom gallery config to the lightbox (optional)
     lightboxRef.setConfig({
       imageSize: ImageSize.Cover,
       thumbPosition: ThumbnailsPosition.Top
     });
 
-    // Load items into the lightbox gallery ref
     lightboxRef.load(this.items); 
   }
 
