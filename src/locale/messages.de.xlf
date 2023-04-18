@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pl" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3855701669002455450" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>kontakt<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1890300073702152532" datatype="html">
+        <source>E-mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="484284730927746380" datatype="html">
+        <source>Adres</source>
+        <target>Adresse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1578329818296386415" datatype="html">
+        <source>Telefon</source>
+        <target>Telefonnummer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9085079297417347388" datatype="html">
+        <source>Imię</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8412234484673951965" datatype="html">
+        <source>Wiadomość</source>
+        <target>Nachricht</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5932663608203365578" datatype="html">
+        <source>Wyślij wiadomość</source>
+        <target>Nachricht schicken</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/contact/contact.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7606020370088205141" datatype="html">
+        <source> o<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> firmie<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> über<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> Unternehmen<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="202854153738257875" datatype="html">
+        <source>Dlaczego warto wybrać nasze palety?</source>
+        <target>Warum unsere Paletten wählen?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2847750565930406381" datatype="html">
+        <source>Oferujemy produkty najwyższej jakości, wykonane z materiałów o wysokiej trwałości. Nasze palety są odporne na uszkodzenia, a także wytrzymałe na obciążenia, co jest niezwykle ważne przy transporcie ciężkich ładunków.</source>
+        <target>Wir bieten Produkte von höchster Qualität aus hochbeständigen Materialien. Unsere Paletten sind widerstandsfähig gegen Beschädigungen und widerstandsfähig gegen Belastungen, was beim Transport schwerer Lasten äußerst wichtig ist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="906107561619908198" datatype="html">
+        <source>Mamy w swojej ofercie palety różnych rozmiarów i typów. Możesz u nas znaleźć palety euro, standardowe, jednorazowe, a także palety specjalne dostosowane do indywidualnych potrzeb klientów.</source>
+        <target>Wir bieten Paletten in verschiedenen Größen und Typen an. Sie finden bei uns Europaletten, Standardpaletten, Einwegpaletten sowie auf individuelle Kundenbedürfnisse zugeschnittene Spezialpaletten.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7280319606580551872" datatype="html">
+        <source>Oferujemy konkurencyjne ceny i szybką realizację zamówień. Jesteśmy w stanie dostarczyć palety na terenie całego kraju w krótkim czasie, co umożliwia Ci szybkie rozpoczęcie pracy.</source>
+        <target>Wir bieten wettbewerbsfähige Preise und eine schnelle Auftragsabwicklung. Wir sind in der Lage, Paletten in kurzer Zeit im ganzen Land zu liefern, was Ihnen einen schnellen Arbeitsbeginn ermöglicht.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="397497450705980813" datatype="html">
+        <source>Kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4383452493174647684" datatype="html">
+        <source>Wysoka jakość</source>
+        <target>Gute Qualität</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5745605180274668998" datatype="html">
+        <source>gwarantowana</source>
+        <target>garantiert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9009425688102204879" datatype="html">
+        <source>Szybka dostawa</source>
+        <target>Schnelle Lieferung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="494595553187273738" datatype="html">
+        <source>do każdego miejsca</source>
+        <target>an jeden Ort</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1982578212822820969" datatype="html">
+        <source>Atrakcyjne ceny</source>
+        <target>Attraktive Preise</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4513704570773279512" datatype="html">
+        <source>do negocjacji</source>
+        <target>zu verhandeln</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/firm/firm.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6425819001937874980" datatype="html">
+        <source>nasza <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>galeria<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Unser <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Galerie<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/gallery/gallery.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8971767798244952923" datatype="html">
+        <source>Wytrzymałe Palety</source>
+        <target>Langlebige Paletten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6246022086744637431" datatype="html">
+        <source> Solidne i Odporne</source>
+        <target> Solide und widerstandsfähig</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7593299608101165586" datatype="html">
+        <source>Zobacz więcej</source>
+        <target>Mehr sehen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6248769172418726715" datatype="html">
+        <source> najnowsze <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>produkty<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> Neueste <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Produkte<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/product/product.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2839923260856937927" datatype="html">
+        <source> nasza <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>praca<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> Unser <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Job<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619725853780500070" datatype="html">
+        <source>Lokalni dostawcy</source>
+        <target>lokale Anbieter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8608212786512653372" datatype="html">
+        <source>Lokalne dostawy drewna pozwalają nam na szybszą realizację zamówień i dostarczenie produktów w krótkim czasie. Dzięki temu nasi klienci mogą być pewni, że otrzymają swoje palety na czas, co jest szczególnie ważne w przypadku branż logistycznych i przemysłowych.</source>
+        <target>Lokale Holzlieferungen ermöglichen es uns, Bestellungen schneller auszuführen und Produkte in kurzer Zeit zu liefern. Dadurch können unsere Kunden sicher sein, dass sie ihre Paletten pünktlich erhalten, was besonders in der Logistik und Industrie wichtig ist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">134,138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5044117354763801486" datatype="html">
+        <source>Najwyższa jakość</source>
+        <target>Höchste Qualität</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6141672939226045161" datatype="html">
+        <source>Oferujemy palety najwyższej jakości, wykonane z materiałów, które są odporne na uszkodzenia i wytrzymałe na obciążenia. Dzięki temu nasze palety są nie tylko trwałe, ale także bezpieczne w transporcie towarów, co jest szczególnie istotne w przypadku wrażliwych ładunków.</source>
+        <target>Wir bieten Paletten von höchster Qualität aus Materialien, die widerstandsfähig gegen Beschädigungen und Belastungen sind. Dadurch sind unsere Paletten nicht nur langlebig, sondern auch sicher im Warentransport, was besonders bei empfindlichen Ladungen wichtig ist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">140,144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3386800491990493374" datatype="html">
+        <source>Indywidualne zamówienia</source>
+        <target>Individuelle Bestellungen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2297773873752765596" datatype="html">
+        <source>Jako lokalny dostawca palet, jesteśmy także w stanie dostosować nasze produkty do indywidualnych potrzeb klientów. Jeśli potrzebujesz palet o specjalnych wymiarach lub konstrukcji, jesteśmy w stanie je dla Ciebie wykonać.</source>
+        <target>Als lokaler Palettenlieferant sind wir auch in der Lage, unsere Produkte an individuelle Kundenbedürfnisse anzupassen. Wenn Sie Paletten mit speziellen Abmessungen oder Konstruktionen benötigen, können wir diese für Sie herstellen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">146,149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">29,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="386655166040027001" datatype="html">
+        <source>Wszystkie nasze palety są wyprodukowane zgodnie z najwyższymi standardami jakościowymi, dzięki czemu możesz być pewien, że otrzymujesz produkt najwyższej jakości. Zapraszamy do zapoznania się z naszą ofertą i skorzystania z naszych usług.</source>
+        <target>Alle unsere Paletten werden nach den höchsten Qualitätsstandards hergestellt, sodass Sie sicher sein können, dass Sie ein Produkt von höchster Qualität erhalten. Wir laden Sie ein, sich mit unserem Angebot vertraut zu machen und unsere Dienstleistungen zu nutzen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">150,154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/work/work.component.html</context>
+          <context context-type="linenumber">33,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6053074603972540060" datatype="html">
+        <source>nasza <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>lokalizacja<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>unsere <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Position<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/localization/localization.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1342601149863767959" datatype="html">
+        <source>Paleta<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> wymiary<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>800 x 1000<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Palette<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Maße<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>800 x 1000<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/product/product.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1426880512040732599" datatype="html">
+        <source>Paleta<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> wymiary<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>1000 x 1000<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Palette<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Maße<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>1000 x 1000<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/product/product.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15932047909711885" datatype="html">
+        <source>Firma</source>
+        <target>Geschäft</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4407104476689591119" datatype="html">
+        <source>Produkty</source>
+        <target>Produkte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4326822980543242014" datatype="html">
+        <source>Galeria</source>
+        <target>Galerie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5961566621164565262" datatype="html">
+        <source>Praca</source>
+        <target>Arbeiten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5963405835786109521" datatype="html">
+        <source>Lokalizacja</source>
+        <target>Standort</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

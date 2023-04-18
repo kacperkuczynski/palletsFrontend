@@ -12,6 +12,11 @@ import { ProductType } from '../product/model/productType';
 })
 export class HomeComponent implements OnInit{
 
+  localesList = [
+    { code: 'pl-PL', label: 'Polski' },
+    { code: 'de', label: 'Deutsch' }
+  ];
+
   products!: Product[];
   items!: GalleryItem[];
   imageData = data;

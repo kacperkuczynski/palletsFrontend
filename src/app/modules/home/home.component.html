@@ -2,9 +2,9 @@
 
     <div class="content">
 
-        <h3>Wytrzymałe Palety</h3>
+        <h3 i18n>Wytrzymałe Palety</h3>
 
-        <span> Solidne i Odporne</span>
+        <span i18n> Solidne i Odporne</span>
 
         <button routerLink="/contact" class="btn">Kontakt</button>
         
@@ -13,7 +13,7 @@
 </div>
 <div class="firm">
 
-    <h1 class="heading"> o<span> firmie</span></h1>
+    <h1 class="heading" i18n> o<span> firmie</span></h1>
 
     <div class="row">
 
@@ -24,22 +24,21 @@
         </div>
 
         <div class="content">
-            <h3>Dlaczego warto wybrać nasze palety?</h3>
+            <h3 i18n>Dlaczego warto wybrać nasze palety?</h3>
 
-            <p>Oferujemy
-                produkty najwyższej jakości, wykonane z materiałów o wysokiej trwałości.
+            <p i18n>Oferujemy produkty najwyższej jakości, wykonane z materiałów o wysokiej trwałości.
                 Nasze palety są odporne na uszkodzenia, a także wytrzymałe
                 na obciążenia, co jest niezwykle ważne przy transporcie ciężkich ładunków.</p>
 
-            <p>Mamy w swojej ofercie palety różnych rozmiarów i typów.
+            <p i18n>Mamy w swojej ofercie palety różnych rozmiarów i typów.
                 Możesz u nas znaleźć palety euro, standardowe, jednorazowe,
                 a także palety specjalne dostosowane do indywidualnych potrzeb klientów.</p>
 
-            <p>Oferujemy konkurencyjne ceny i szybką realizację zamówień.
+            <p i18n>Oferujemy konkurencyjne ceny i szybką realizację zamówień.
                 Jesteśmy w stanie dostarczyć palety na terenie całego kraju w
                 krótkim czasie, co umożliwia Ci szybkie rozpoczęcie pracy.</p>
 
-            <button routerLink="/firm" class="btn">Zobacz więcej</button>
+            <button routerLink="/firm" class="btn" i18n>Zobacz więcej</button>
 
         </div>
 
@@ -52,24 +51,24 @@
     <div class="icons">
         <img src="../../../assets/badge.png" alt="">
         <div class="info">
-            <h3>Wysoka jakość</h3>
-            <span>gwarantowana</span>
+            <h3 i18n>Wysoka jakość</h3>
+            <span i18n>gwarantowana</span>
         </div>
     </div>
 
     <div class="icons">
         <img src="../../../assets/delivery-truck.png" alt="">
         <div class="info">
-            <h3>Szybka dostawa</h3>
-            <span>do każdego miejsca</span>
+            <h3 i18n>Szybka dostawa</h3>
+            <span i18n>do każdego miejsca</span>
         </div>
     </div>
 
     <div class="icons">
         <img src="../../../assets/best-price.png" alt="">
         <div class="info">
-            <h3>Atrakcyjne ceny</h3>
-            <span>do negocjacji</span>
+            <h3 i18n>Atrakcyjne ceny</h3>
+            <span i18n>do negocjacji</span>
         </div>
     </div>
 
@@ -77,13 +76,13 @@
 
 <div class="products">
 
-    <h1 class="heading"> najnowsze <span>produkty</span></h1>
+    <h1 class="heading" i18n> najnowsze <span>produkty</span></h1>
 
     <div class="container" gallerize="gallery-1">
 
         <div class="box" *ngFor="let product of products">
 
-            <div class="image" >
+            <div class="image">
                 <p>{{product.productType}}</p>
                 <p>{{product.height}} x {{product.width}}</p>
                 <img [src]="product.image">
@@ -93,13 +92,13 @@
 
     </div>
 
-    <button routerLink="/product" class="btn">Zobacz więcej</button>
+    <button routerLink="/product" class="btn" i18n>Zobacz więcej</button>
 
 </div>
 
 <div class="gallery">
 
-    <h1 class="heading">nasza <span>galeria</span></h1>
+    <h1 class="heading" i18n>nasza <span>galeria</span></h1>
 
     <div class="container" gallerize>
 
@@ -113,13 +112,13 @@
 
     </div>
 
-    <button routerLink="/gallery" class="btn">Zobacz więcej</button>
+    <button routerLink="/gallery" class="btn" i18n>Zobacz więcej</button>
 
 </div>
 
 <div class="work">
 
-    <h1 class="heading"> nasza <span>praca</span></h1>
+    <h1 class="heading" i18n> nasza <span>praca</span></h1>
 
     <div class="row">
 
@@ -131,29 +130,29 @@
         </div>
 
         <div class="content">
-            <h3>Lokalni dostawcy</h3>
-            <p>Lokalne dostawy drewna pozwalają nam na szybszą realizację zamówień i
+            <h3 i18n>Lokalni dostawcy</h3>
+            <p i18n>Lokalne dostawy drewna pozwalają nam na szybszą realizację zamówień i
                 dostarczenie produktów w krótkim czasie. Dzięki temu nasi
                 klienci mogą być pewni, że otrzymają swoje palety na czas,
                 co jest szczególnie ważne w przypadku branż logistycznych
                 i przemysłowych.</p>
-            <h3>Najwyższa jakość</h3>
-            <p>Oferujemy palety najwyższej jakości, wykonane z materiałów,
+            <h3 i18n>Najwyższa jakość</h3>
+            <p i18n>Oferujemy palety najwyższej jakości, wykonane z materiałów,
                 które są odporne na uszkodzenia i wytrzymałe na obciążenia.
                 Dzięki temu nasze palety są nie tylko trwałe, ale także
                 bezpieczne w transporcie towarów, co jest szczególnie istotne
                 w przypadku wrażliwych ładunków.</p>
-            <h3>Indywidualne zamówienia</h3>
-            <p>Jako lokalny dostawca palet, jesteśmy także w stanie dostosować
+            <h3 i18n>Indywidualne zamówienia</h3>
+            <p i18n>Jako lokalny dostawca palet, jesteśmy także w stanie dostosować
                 nasze produkty do indywidualnych potrzeb klientów.
                 Jeśli potrzebujesz palet o specjalnych wymiarach lub konstrukcji,
                 jesteśmy w stanie je dla Ciebie wykonać.</p>
-            <p>Wszystkie nasze palety są wyprodukowane zgodnie z najwyższymi
+            <p i18n>Wszystkie nasze palety są wyprodukowane zgodnie z najwyższymi
                 standardami jakościowymi, dzięki czemu możesz być pewien,
                 że otrzymujesz produkt najwyższej jakości.
                 Zapraszamy do zapoznania się z naszą ofertą i skorzystania
                 z naszych usług.</p>
-            <button routerLink="/work" class="btn">Zobacz więcej</button>
+            <button routerLink="/work" class="btn" i18n>Zobacz więcej</button>
 
         </div>
 

@@ -1,6 +1,6 @@
 @import '../../../variable.scss';
 
-.home{
+.home {
     display: flex;
     align-items: center;
     min-height: 100vh;
@@ -9,17 +9,17 @@
     background-position: center;
     margin-top: -5px;
 }
-.home .content{
+.home .content {
     padding: 9%;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
 }
-.home .content h3{
+.home .content h3 {
     font-size: 60px;
     color: $brightWood;
 }
-.home .content span{
+.home .content span {
     font-size: 45px;
     color: orange;
     line-height: 1.5;
@@ -27,11 +27,12 @@
 
 // firm
 
-.firm{
+.firm {
     padding: 0 9% 9%; //top-right+left-bottom
     position: relative;
 }
-.firm .heading{
+
+.firm .heading {
     text-align: center;
     font-size: 60px;
     color: #333;
@@ -39,11 +40,13 @@
     margin: 0px 0;
     padding: 7% 0 7% 0; //top-right-bottom-left
 }
-.firm .heading span{
+
+.firm .heading span {
     margin-top: -100px;
     color: $brightWood;
 }
-.firm .row{
+
+.firm .row {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -51,35 +54,40 @@
     padding: 20px 0;
     padding-bottom: 3px;
 }
-.firm .row .video-container{
+
+.firm .row .video-container {
     flex: 1 1 40px;
     position: relative;
 }
-.firm .row .video-container video{
+
+.firm .row .video-container video {
     width: 100%;
-    border:15px solid #fff;
+    border: 15px solid #fff;
     border-radius: 10px;
-    box-shadow: 5px 10px 5px rgba(0,0,0,.1);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, .1);
     height: 100%;
     object-fit: cover;
 }
 
-.firm .row .content{
-    flex:1 1 40px;
+.firm .row .content {
+    flex: 1 1 40px;
 }
-.firm .row .content h3{
+
+.firm .row .content h3 {
     font-size: 40px;
     counter-reset: #333;
     line-height: 1;
 }
-.firm .row .content p{
+
+.firm .row .content p {
     font-size: 20px;
     counter-reset: #999;
     padding: 10px 0;
     padding-top: 10px;
     line-height: 1.5;
 }
-.icons-container{
+
+.icons-container {
     padding: 7%;
     display: flex;
     flex-wrap: wrap;
@@ -87,38 +95,43 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.icons-container .icons{
+
+.icons-container .icons {
     background: #fff;
-    border: 3px solid rgba(0,0,0,.1);
+    border: 3px solid rgba(0, 0, 0, .1);
     padding: 10px;
     display: flex;
     align-items: center;
     flex: 1 1 20px;
 }
-.icons-container .icons img{
+
+.icons-container .icons img {
     height: 120px;
     margin-left: 7%;
 }
-.icons-container .icons h3{
+
+.icons-container .icons h3 {
     color: #333;
     padding-bottom: 5px;
     margin-left: 50px;
     font-size: 20px;
 }
-.icons-container .icons span{
+
+.icons-container .icons span {
     color: #999;
     margin-left: 50px;
     font-size: 17px;
 }
 
 // products
-.products{
+.products {
     padding: 0 9% 3%; //top-right+left-bottom
     position: relative;
     display: flex;
     flex-direction: column;
 }
-.products .heading{
+
+.products .heading {
     text-align: center;
     font-size: 60px;
     color: #333;
@@ -126,10 +139,12 @@
     margin: 0px 0;
     padding: 7% 0 0 0; //top-right-bottom-left
 }
-.products span{
+
+.products span {
     color: $brightWood;
 }
-.products h2{
+
+.products h2 {
     text-align: center;
     font-size: 30px;
     color: #333;
@@ -137,31 +152,36 @@
     margin: 0px 0;
     padding: 7% 0 0 0; //top-right-bottom-left
 }
-.products .container{
+
+.products .container {
     padding-top: 7%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;   
+    gap: 10px;
 }
-.products .container .box{
+
+.products .container .box {
     flex: 1 1 150px;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
-    border: .1rem solid rgba(0,0,0,.1);
+    border: .1rem solid rgba(0, 0, 0, .1);
     position: relative;
     background: #fff;
 }
-.products .container .box .image{
+
+.products .container .box .image {
     position: relative;
     text-align: center;
     padding: 1rem;
 }
-.products .container .box .image img{
+
+.products .container .box .image img {
     border-radius: .5rem;
     width: 250px;
     height: 250px;
 }
-.products .container .box .image img:hover{
+
+.products .container .box .image img:hover {
     transform: scale(1.1);
 }
 
@@ -173,6 +193,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .gallery .heading {
     text-align: center;
     font-size: 60px;
@@ -181,44 +202,51 @@
     margin: 0px 0;
     padding: 7% 0 0 0; //top-right-bottom-left
 }
+
 .gallery .heading span {
     color: $brightWood;
 }
+
 .gallery .container {
     padding-top: 7%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
+
 .gallery .container .box {
     flex: 1 1 150px;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
-    border: .1rem solid rgba(0,0,0,.1);
+    border: .1rem solid rgba(0, 0, 0, .1);
     position: relative;
     background: #fff;
 }
+
 .gallery .container .box .image {
     position: relative;
     text-align: center;
     padding: 1rem;
 }
+
 .gallery .container .box .image img {
     border-radius: .5rem;
     width: 330px;
     height: 330px;
 }
+
 .gallery .container .box .image img:hover {
     transform: scale(1.1);
 }
 
 // work
 
-.work{
+.work {
     padding: 0 9% 3%; //top-right+left-bottom
     position: relative;
 }
-.work .heading{
+
+.work .heading {
     text-align: center;
     font-size: 60px;
     color: #333;
@@ -226,11 +254,13 @@
     margin: 0px 0;
     padding: 7% 0 7% 0; //top-right-bottom-left
 }
-.work .heading span{
+
+.work .heading span {
     margin-top: -100px;
     color: $brightWood;
 }
-.work .row{
+
+.work .row {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -238,36 +268,43 @@
     padding: 20px 0;
     padding-bottom: 3px;
 }
-.work .row .video-container{
+
+.work .row .video-container {
     flex: 1 1 50px;
     position: relative;
 }
-.work .row .video-container video{
+
+.work .row .video-container video {
     width: 100%;
-    border:15px solid #fff;
+    border: 15px solid #fff;
     border-radius: 10px;
-    box-shadow: 5px 10px 5px rgba(0,0,0,.1);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, .1);
     height: 100%;
     object-fit: cover;
 }
-.work .row .content{
-    flex:1 1 40px;
+
+.work .row .content {
+    flex: 1 1 40px;
 }
-.work .row .content h3{
+
+.work .row .content h3 {
     font-size: 30px;
     counter-reset: #333;
 }
-.work .row .content p{
+
+.work .row .content p {
     font-size: 18px;
     counter-reset: #999;
     padding: 0 0;
     padding-top: 10px;
     line-height: 1.2;
 }
-.localization{
+
+.localization {
     padding: 0 9% 9%; //top-right+left-bottom
 }
-.localization .heading{
+
+.localization .heading {
     text-align: center;
     font-size: 60px;
     color: #333;
@@ -275,40 +312,77 @@
     margin: 0px 0;
     padding: 7% 0 7% 0; //top-right-bottom-left
 }
-.localization .heading span{
+
+.localization .heading span {
     margin-top: -100px;
     color: $brightWood;
 }
-.map-wrapper{
-    border: 4px solid $brightWood;    
+
+.map-wrapper {
+    border: 4px solid $brightWood;
 }
-.map{
+
+.map {
     width: 100%;
     margin-bottom: -4px;
 }
-.btn:hover{
+
+.btn:hover {
     background: $brightWood;
 }
-.btn{
+
+.btn {
     width: auto;
     height: auto;
     display: block;
-	margin: 20px 165px;
+    margin: 20px 165px;
     border-radius: 20px;
     background: #333;
-    color:#fff;
+    color: #fff;
     padding: 10px 50px;
     cursor: pointer;
     font-size: 25px;
 }
-// .btn:hover{
-//     background: $brightWood;
-// }
-// .btn{
-//     border-radius: 20px;
-//     background: #333;
-//     color:#fff;
-//     padding: 10px 50px;
-//     cursor: pointer;
-//     font-size: 25px;
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+.home .is-phone-portrait {
+    font-size: 20px;
+
+}
+
+// .home .is-phone-portrait {
+//     .home{
+//         display: flex;
+//         align-items: center;
+//         min-height: 100vh;
+//         background: url(../../../assets/pallets-9.jpg) no-repeat;
+//         background-size: cover;
+//         background-position: center;
+//         margin-top: -5px;
+//     }
+//     .home .content{
+//         padding: 9%;
+//         max-width: 1000px;
+//         display: flex;
+//         flex-direction: column;
+//     }
+//     .home .content h3{
+//         font-size: 60px;
+//         color: $brightWood;
+//     }
+//     .home .content span{
+//         font-size: 45px;
+//         color: orange;
+//         line-height: 1.5;
+//     }
+//  }

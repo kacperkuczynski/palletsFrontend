@@ -6,7 +6,7 @@
 }
 .work .heading{
     text-align: center;
-    font-size: 60px;
+    font-size: calc(25px + 3vw);
     color: #333;
     padding: 10px;
     margin: 0px 0;
@@ -19,13 +19,13 @@
 .work .row{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2.5vw;
     flex-wrap: wrap;
     padding: 20px 0;
     padding-bottom: 3px;
 }
 .work .row .video-container{
-    flex: 1 1 50px;
+    flex: 1 1 9vw;
     position: relative;
 }
 .work .row .video-container video{
@@ -40,11 +40,11 @@
     flex:1 1 40px;
 }
 .work .row .content h3{
-    font-size: 30px;
+    font-size: calc(20px + 1vw);
     counter-reset: #333;
 }
 .work .row .content p{
-    font-size: 18px;
+    font-size: calc(13px + 0.5vw);
     counter-reset: #999;
     padding: 10px 0;
     padding-top: 10px;
@@ -54,13 +54,17 @@
     background: $brightWood;
 }
 .btn{
-    width: 200px;
-    height: 40px;
+    // width: 200px;
+    // height: 40px;
     display: inline-block;
     border-radius: 20px;
     background: #333;
     color:#fff;
     padding: 10px 50px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: calc(15px + 0.3vw);
+}
+.is-phone-portrait  {
+    display: flex;
+    flex-direction: column;
 }
