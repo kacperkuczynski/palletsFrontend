@@ -4,7 +4,8 @@
 assets/
 
 # Compiled output
-/dist
+/dist/de/assets
+/dist/pl/assets
 /tmp
 /out-tsc
 /bazel-out
