@@ -45,8 +45,8 @@
 }
 .products .container .box .image img{
     border-radius: .5rem;
-    width: 250px;
-    height: 250px;
+    width: auto;
+    height: 300px;
 }
 .products .container .box .image img:hover{
     transform: scale(1.1);

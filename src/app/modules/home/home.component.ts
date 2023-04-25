@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Gallery, GalleryItem, ImageSize, ThumbnailsPosition } from 'ng-gallery';
 import { Lightbox } from 'ng-gallery/lightbox';
 import { Product } from '../product/model/product';
-import { PalletteType } from '../product/model/palletteType';
 import { ProductType } from '../product/model/productType';
 
 @Component({
@@ -42,24 +41,21 @@ export class HomeComponent implements OnInit{
   data:Product[] = [
     {
       height: 800,
-      width: 1000,
-      palletteType: PalletteType.DREWNIANA,
-      productType: ProductType.PALETA,
-      image: "../assets/PaletyObrazki/produkty/1.JPG"
-    },
-    {
-      height: 1000,
-      width: 1000,
-      palletteType: PalletteType.DREWNIANA,
-      productType: ProductType.KĄTOWNIK,
-      image: "../assets/PaletyObrazki/produkty/5.JPG"
+      width: 1200,
+      productType: ProductType.PALLET_SOLID,
+      image: "../assets/PaletyObrazki/produktyRozmiary/800x1200solid/25.JPG"
     },
     {
       height: 1200,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
-      productType: ProductType.PALETA,
-      image: "../assets/PaletyObrazki/produkty/15.JPG"
+      productType: ProductType.PALLET,
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000/19.JPG"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SOLID,
+      image: "../assets/PaletyObrazki/produktyRozmiary/1600x800solid/32.JPG"
     }
   ];
 }
