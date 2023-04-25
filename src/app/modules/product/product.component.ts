@@ -313,7 +313,7 @@ export class ProductComponent implements OnInit{
       height: 0,
       width: 0,
       productType: ProductType.ANGLEBAR,
-      image: "../assets/PaletyObrazki/produktyRozmiary/kątownik/5.JPG"
+      image: "../assets/PaletyObrazki/produktyRozmiary/katownik/5.JPG"
     },
   ];
 }
