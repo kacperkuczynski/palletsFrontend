@@ -49,19 +49,10 @@ const data = [
     srcUrl: "../assets/PaletyObrazki/galeria/6.JPG"
   },
   {
-    srcUrl: "../assets/PaletyObrazki/galeria/7.JPG"
-  },
-  {
     srcUrl: "../assets/PaletyObrazki/galeria/8.JPG"
   },
   {
-    srcUrl: "../assets/PaletyObrazki/galeria/9.JPG"
-  },
-  {
     srcUrl: "../assets/PaletyObrazki/galeria/10.JPG"
-  },
-  {
-    srcUrl: "../assets/PaletyObrazki/galeria/11.JPG"
   },
   {
     srcUrl: "../assets/PaletyObrazki/galeria/12.JPG"
@@ -80,5 +71,23 @@ const data = [
   },
   {
     srcUrl: "../assets/PaletyObrazki/galeria/17.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/18.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/19.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/20.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/21.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/22.JPG"
+  },
+  {
+    srcUrl: "../assets/PaletyObrazki/galeria/23.JPG"
   }
 ];

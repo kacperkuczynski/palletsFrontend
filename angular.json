@@ -26,7 +26,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": true,
+          
             "i18nMissingTranslation": "error",
             "outputPath": "dist/pallets-frontend",
             "index": "src/index.html",

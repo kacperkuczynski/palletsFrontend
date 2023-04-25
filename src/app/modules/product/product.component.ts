@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from './model/product';
-import { PalletteType } from './model/palletteType';
-import { ProductType } from './model/productType';
 import { Gallery, GalleryItem, ImageSize, ThumbnailsPosition } from 'ng-gallery';
 import { Lightbox } from 'ng-gallery/lightbox';
+import { Product } from './model/product';
+import { ProductType } from './model/productType';
 
 @Component({
   selector: 'app-product',
@@ -36,42 +35,36 @@ export class ProductComponent implements OnInit{
     {
       height: 800,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/1.JPG"
     },
     {
       height: 800,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/1.JPG"
     },
     {
       height: 800,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/1.JPG"
     },
     {
       height: 1000,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/5.JPG"
     },
     {
       height: 1000,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/5.JPG"
     },
     {
       height: 1000,
       width: 1000,
-      palletteType: PalletteType.DREWNIANA,
       productType: ProductType.PALETA,
       image: "../assets/PaletyObrazki/produkty/5.JPG"
     }
