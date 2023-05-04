@@ -12,6 +12,8 @@ import { ProductComponent } from 'src/app/modules/product/product.component';
 import { WorkComponent } from 'src/app/modules/work/work.component';
 import { GalleryModule } from  'ng-gallery';
 import { LightboxModule } from  'ng-gallery/lightbox';
+import { ReactiveFormsModule } from '@angular/forms';
+import { Paleta800x1200solidComponent } from 'src/app/modules/product/paleta800x1200solid/paleta800x1200solid.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,7 @@ import { LightboxModule } from  'ng-gallery/lightbox';
     WorkComponent,
     LocalizationComponent,
     ContactComponent
-  ],
+    ],
   imports: [
     CommonModule,
     SharedModule,
@@ -31,7 +33,8 @@ import { LightboxModule } from  'ng-gallery/lightbox';
     GalleryModule.withConfig({
       // thumbView: 'contain',
     }),
-    LightboxModule
+    LightboxModule,
+    ReactiveFormsModule
   ]
 })
 export class DefaultModule { }

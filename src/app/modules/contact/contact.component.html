@@ -23,11 +23,11 @@
 
     <div class="row">
 
-        <form class="form">
-            <input i18n-placeholder type="text" id="name" placeholder="Imię" class="box" required>
-            <input i18n-placeholder type="email" id="email" placeholder="E-mail" class="box" required>
-            <textarea i18n-placeholder name="" id="message" class="box" placeholder="Wiadomość" cols="30" rows="10"></textarea>
-            <input i18n-value type="submit" value="Wyślij wiadomość" class="btn">
+        <form class="form" [formGroup]="contactForm" (submit)="submit()" *ngIf="this.contactForm">
+            <input i18n-placeholder type="email" placeholder="E-mail" class="box" formControlName="email" required>
+            <input i18n-placeholder type="text" placeholder="Imię" class="box" formControlName="name" required>
+            <textarea i18n-placeholder name="" class="box" placeholder="Wiadomość" formControlName="message" cols="30" rows="10"></textarea>
+            <input i18n-value type="submit" (click)="openSnackBar()" value="Wyślij wiadomość" class="btn">
         </form>
 
         <div class="image">

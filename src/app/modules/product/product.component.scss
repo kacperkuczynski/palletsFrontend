@@ -1,36 +1,31 @@
 @import '../../../variable.scss';
 
-.products{
-    padding: 0 9% 9%; //top-right+left-bottom
-    position: relative;
+:host{
+    padding: 20px;
 }
-.products .heading{
+a{
+    text-decoration: none;
+    color: black;
+}
+.heading {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #333;
     padding: 10px;
     margin: 0px 0;
     padding: 7% 0 0 0; //top-right-bottom-left
 }
-.products span{
+.heading span {
     color: $brightWood;
 }
-.products h2{
-    text-align: center;
-    font-size: 30px;
-    color: #333;
-    padding: 10px;
-    margin: 0px 0;
-    padding: 7% 0 0 0; //top-right-bottom-left
-}
-.products .container{
+
+.container {
     padding-top: 7%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
 }
-.products .container .box{
+.container .box {
     flex: 1 1 150px;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
@@ -38,16 +33,16 @@
     position: relative;
     background: #fff;
 }
-.products .container .box .image{
+.container .box .image {
     position: relative;
     text-align: center;
     padding: 1rem;
 }
-.products .container .box .image img{
+.container .box .image img {
     border-radius: .5rem;
-    width: auto;
-    height: 300px;
+    width: 440px;
+    height: 250px;
 }
-.products .container .box .image img:hover{
+.container .box .image img:hover {
     transform: scale(1.1);
 }
