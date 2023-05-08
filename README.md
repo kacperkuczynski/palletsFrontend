@@ -10,7 +10,7 @@ The application is designed to create a portfolio which provide communication su
 ### Application development plan
 #### Technical :factory:
 1. implement REST architectural style 
-2. implement Node.js to create admin panel which let create new products adn editing gallery
+2. implement Node.js to create admin panel which let create new products and editing gallery
 #### Functional :construction_worker:
 1. modify view which let you change the language
 2. create translation for Czech and English language
