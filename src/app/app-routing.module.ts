@@ -8,7 +8,6 @@ import { GalleryComponent } from './modules/gallery/gallery.component';
 import { LocalizationComponent } from './modules/localization/localization.component';
 import { WorkComponent } from './modules/work/work.component';
 import { ProductComponent } from './modules/product/product.component';
-import { Paleta800x1200solidComponent } from './modules/product/paleta800x1200solid/paleta800x1200solid.component';
 
 const routes: Routes = [
   {
@@ -20,9 +19,6 @@ const routes: Routes = [
       {path:'localization', component:LocalizationComponent},
       {path:'contact', component:ContactComponent},
       {path:'product', component:ProductComponent},
-      {path:'product/palletSolid_800x1200', component: Paleta800x1200solidComponent}
-      ,
-
     ]
   }
 ];

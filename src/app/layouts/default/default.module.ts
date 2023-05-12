@@ -13,18 +13,18 @@ import { WorkComponent } from 'src/app/modules/work/work.component';
 import { GalleryModule } from  'ng-gallery';
 import { LightboxModule } from  'ng-gallery/lightbox';
 import { ReactiveFormsModule } from '@angular/forms';
-import { Paleta800x1200solidComponent } from 'src/app/modules/product/paleta800x1200solid/paleta800x1200solid.component';
 
 @NgModule({
   declarations: [
     DefaultComponent,
     HomeComponent,
     FirmComponent,
-    ProductComponent,
     GalleryComponent,
     WorkComponent,
     LocalizationComponent,
-    ContactComponent
+    ContactComponent,
+    ProductComponent
+    
     ],
   imports: [
     CommonModule,
@@ -34,7 +34,7 @@ import { Paleta800x1200solidComponent } from 'src/app/modules/product/paleta800x
       // thumbView: 'contain',
     }),
     LightboxModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ]
 })
 export class DefaultModule { }

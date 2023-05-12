@@ -26,7 +26,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-          
+            "allowedCommonJsDependencies": [
+              "bezier-easing"
+           ],
             "i18nMissingTranslation": "error",
             "outputPath": "dist/pallets-frontend",
             "index": "src/index.html",

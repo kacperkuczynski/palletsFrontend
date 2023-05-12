@@ -3,6 +3,7 @@ import { Gallery, GalleryItem, ImageSize, ThumbnailsPosition } from 'ng-gallery'
 import { Lightbox } from 'ng-gallery/lightbox';
 import { Product } from '../product/model/product';
 import { ProductType } from '../product/model/productType';
+import { Category } from '../product/model/category';
 
 @Component({
   selector: 'app-home',
@@ -43,18 +44,21 @@ export class HomeComponent implements OnInit{
       height: 800,
       width: 1200,
       productType: ProductType.PALLET_SOLID,
+      category: 'PALETA 1200x800',
       image: "../assets/PaletyObrazki/produktyRozmiary/800x1200solid/25.JPG"
     },
     {
       height: 1200,
       width: 1000,
       productType: ProductType.PALLET,
+      category:'PALETA 1200x800',
       image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000/19.JPG"
     },
     {
       height: 1200,
       width: 1000,
       productType: ProductType.PALLET_SOLID,
+      category:'PALETA 1200x800 SOLID',
       image: "../assets/PaletyObrazki/produktyRozmiary/1600x800solid/32.JPG"
     }
   ];

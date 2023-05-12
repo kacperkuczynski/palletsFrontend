@@ -1,12 +1,58 @@
 @import '../../../variable.scss';
 
-:host{
+.products {
+    background: lightgoldenrodyellow;
+    height: 34.9rem;
+    overflow: hidden;
+}
+
+.drawer {
+    width: 25vw;
+    
+    background: lightgoldenrodyellow;
+    padding: 0 0 0 9%;
+    color: rgb(0, 0, 0);
+    
+}
+
+.sidebar {
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.options {
+    font-size: 15px;
+    max-height: 2rem;
+    color: $brightWood;
+    max-height: 15px;
+}
+mat-list-option{
+    max-height: 2rem;
+
+}
+
+.content{
+    color: black; 
+    padding: 0 3% 0 3%;
+}
+
+:host {
     padding: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
+
+a:hover {
+    color: brown;
+}
+
 .heading {
     text-align: center;
     font-size: 40px;
@@ -15,6 +61,7 @@ a{
     margin: 0px 0;
     padding: 7% 0 0 0; //top-right-bottom-left
 }
+
 .heading span {
     color: $brightWood;
 }
@@ -25,24 +72,27 @@ a{
     flex-wrap: wrap;
     gap: 10px;
 }
+
 .container .box {
-    flex: 1 1 150px;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    flex: 0 0 0px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
-    border: .1rem solid rgba(0,0,0,.1);
-    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .1);
     background: #fff;
 }
+
 .container .box .image {
     position: relative;
     text-align: center;
     padding: 1rem;
 }
+
 .container .box .image img {
     border-radius: .5rem;
-    width: 440px;
-    height: 250px;
+    max-width: 250px;
+    height: 200px;
 }
+
 .container .box .image img:hover {
     transform: scale(1.1);
 }
