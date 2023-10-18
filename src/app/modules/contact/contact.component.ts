@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { ContactService } from './contact.service';
 import { EmailMessage } from './model/emailMessage';
@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit{
   contactForm!: FormGroup;
   durationInSeconds = 5;
 
-  constructor(    
+  constructor(
     private router: ActivatedRoute,
     private formBuilder: FormBuilder,
     private contactService:ContactService,
@@ -25,33 +25,70 @@ export class ContactComponent implements OnInit{
 
     ngOnInit(): void {
       this.contactForm = this.formBuilder.group({//definicja formularza
-        email: ['', []],
-        name: ['', []],
-        message: ['', []]
+        email: ['', [Validators.required, Validators.email]],
+        subject: ['', [Validators.required]],
+        message: ['', [Validators.required]]
       })
     }
 
     openSnackBar() {
-      this.snackBar.open('Dziękujemy za kontakt', '', 
+      this.snackBar.open('Dziękujemy za kontakt', 'OK',
         {
-          duration:this.durationInSeconds * 1000
+          duration:this.durationInSeconds * 1000,
         });
     }
 
-  submit(){
-    // this.contactService.sendEmailMessage({
-    //   email: this.contactForm.get("email")?.value,
-    //   name: this.contactForm.get("name")?.value,
-    //   message: this.contactForm.get("message")?.value
-    // }as EmailMessage).subscribe(() => this.contactForm.reset());
-}
+    submit(){
+      if (this.contactForm.valid) {
+        const formData: EmailMessage = {
+          email: this.email?.value,
+          subject: this.subject?.value,
+          message: this.message?.value
+        };
+
+        this.contactService.sendEmailMessage(formData).subscribe(
+          () => {
+            this.contactForm.reset();
+            this.snackBar.open('Dziękujemy za kontakt', 'OK',
+            {
+              duration:this.durationInSeconds * 1000,
+              panelClass: ['green-snackbar'],
+            });
+          },
+          error => {
+            console.error('Błąd podczas wysyłania wiadomości:', error);
+            // Możesz dodać dodatkową obsługę błędu, np. wyświetlenie Snackbar z komunikatem o błędzie.
+          }
+        );
+      } else {
+        let errorMessage = "Błąd w polach: ";
+
+        if (this.email?.invalid) {
+          errorMessage += "Email, ";
+        }
+
+        if (this.subject?.invalid) {
+          errorMessage += "Temat, ";
+        }
+
+        if (this.message?.invalid) {
+          errorMessage += "Wiadomość, ";
+        }
+
+        errorMessage = errorMessage.slice(0, -2) + '.';
+
+        this.snackBar.open(errorMessage, 'OK', {
+          duration: this.durationInSeconds * 1000,
+        });
+      }
+    }
 
   get email(){
     return this.contactForm.get('email');
   }
 
-  get name(){
-    return this.contactForm.get('name');
+  get subject(){
+    return this.contactForm.get('subject');
   }
 
   get message(){

@@ -4,10 +4,10 @@
 
     <div class="container" gallerize>
 
-        <div class="box" *ngFor="let img of imageData">
+        <div class="box" *ngFor="let img of items">
 
             <div class="image">
-                <img [src]="img.srcUrl">
+                <img [src]="img.data!.src">
             </div>
 
         </div>

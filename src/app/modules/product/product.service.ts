@@ -255,7 +255,49 @@ export class ProductService {
       width: 1000,
       productType: ProductType.PALLET_SKID,
       category: '1200x1000 PŁOZOWA',
-      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/17.1.jpg"
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/1.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/2.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/3.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/4.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/5.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/6.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/7.jpg"
     },
     {
       height: 1200,
@@ -270,6 +312,13 @@ export class ProductService {
       productType: ProductType.PALLET_SKID,
       category: '1200x1000 PŁOZOWA',
       image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/18.jpg"
+    },
+    {
+      height: 1200,
+      width: 1000,
+      productType: ProductType.PALLET_SKID,
+      category: '1200x1000 PŁOZOWA',
+      image: "../assets/PaletyObrazki/produktyRozmiary/1200x1000paletaPłozowa/17.1.jpg"
     },
     {
       height: 1600,

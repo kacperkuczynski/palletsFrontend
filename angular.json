@@ -29,6 +29,7 @@
             "allowedCommonJsDependencies": [
               "bezier-easing"
            ],
+
             "i18nMissingTranslation": "error",
             "outputPath": "dist/pallets-frontend",
             "index": "src/index.html",
@@ -82,6 +83,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "proxy.config.json"
+          },
           "configurations": {
             "de":{
               "browserTarget": "palletsFrontend:build:development,de"

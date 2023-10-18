@@ -6,17 +6,17 @@
 
         <div class="data-value">
             <h3 i18n>E-mail</h3>
-            <h4>z.deszczynski@gmail.com</h4>
+            <h4>lol@gmail.com</h4>
         </div>
 
         <div class="data-value">
             <h3 i18n>Adres</h3>
-            <h4>Grunwaldzka 61, 58-340 Głuszyca</h4>
+            <h4>Grunwaldzka</h4>
         </div>
 
         <div class="data-value">
             <h3 i18n>Telefon</h3>
-            <h4>+48606405148</h4>
+            <h4>+48</h4>
         </div>
 
     </div>
@@ -25,9 +25,9 @@
 
         <form class="form" [formGroup]="contactForm" (submit)="submit()" *ngIf="this.contactForm">
             <input i18n-placeholder type="email" placeholder="E-mail" class="box" formControlName="email" required>
-            <input i18n-placeholder type="text" placeholder="Imię" class="box" formControlName="name" required>
+            <input i18n-placeholder type="text" placeholder="Temat" class="box" formControlName="subject" required>
             <textarea i18n-placeholder name="" class="box" placeholder="Wiadomość" formControlName="message" cols="30" rows="10"></textarea>
-            <input i18n-value type="submit" (click)="openSnackBar()" value="Wyślij wiadomość" class="btn">
+            <input i18n-value type="submit" value="Wyślij wiadomość" class="btn">
         </form>
 
         <div class="image">
